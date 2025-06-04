@@ -38,6 +38,9 @@ An Android app that suggests outdoor activities based on weather data, location 
 | io.noties.markwon:core                                          | Viser markdown-tekst i Compose                    |
 | io.noties.markwon:syntax-highlight                              | Fargelegging av kode i markdown                   |
 
+## Program Structure
+![Picture of the app architecture](app_architecture.png)
+
 ## What I did:
 - Most of the backend development:
   - Setup of file structure
