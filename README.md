@@ -19,6 +19,25 @@ An Android app that suggests outdoor activities based on weather data, location 
 - MET (weather, sunrise&sunset and warings) API
 - Google places API
 
+| Bibliotek                                                       | Forklaring for hvorfor vi brukte det              |
+|-----------------------------------------------------------------|---------------------------------------------------|
+| com.google.dagger:hilt-android                                  | Dependency injection-rammeverk                    |
+| com.google.dagger:hilt-android-compiler                         | Kodegenerering for Hilt                           |
+| androidx.hilt:hilt-navigation-compose                           | Hilt-integrasjon for Compose-navigasjon           |
+| androidx.room:room-runtime                                      | Lokal database (Room) for lagring av sok          |
+| androidx.datastore:datastore-preferences                        | Lokal database (key preferences) for instillinger |
+| io.coil-kt:coil-gif                                             | Støtte for GIF-filer                              |
+| com.google.android.libraries.places:places                      | Brukt til stedsøking i Norge                      |
+| com.google.android.libraries.mapsplatform.secrets-gradle-plugin | Brukte til å håndtere hemmelige API nøkler        |
+| com.azure:azure-ai-openai                                       | Tilgang til Azure OpenAI API                      |
+| org.slf4j:slf4j-simple                                          | Logger for Azure SDK-er                           |
+| androidx.test.espresso:espresso-core                            | UI-testing                                        |
+| com.squareup.okhttp3:mockwebserver                              | Mock-server for å teste nettverkskall             |
+| io.mockk:mockk                                                  | Mocking i Kotlin-tester                           |
+| io.mockk:mockk-agent-jvm                                        | Agent for avansert mocking                        |
+| io.noties.markwon:core                                          | Viser markdown-tekst i Compose                    |
+| io.noties.markwon:syntax-highlight                              | Fargelegging av kode i markdown                   |
+
 ## What I did:
 - Most of the backend development:
   - Setup of file structure
