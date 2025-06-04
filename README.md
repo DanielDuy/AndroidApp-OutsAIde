@@ -1,4 +1,4 @@
 # AndroidApp-OutsAIde
-![Demonstrasjon](appdemo-ai-generating-activity.gif)
-![Favorites og Google Maps](appdemo-using-favorites-and-google-map.gif)
-![Settings](appdemo-app-settings.gif)
+![Demonstrasjon](appDemo_mainFunctionality.gif)
+![Favorites og Google Maps](appDemo_changingSearchDetails_fromFavoritesDatabase.gif)
+![Settings](appDemo_appSettings.gif)
